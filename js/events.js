@@ -29,10 +29,10 @@ function pressIt()
 {
   $("form").on('keydown', function(key){
     
-    if( $("input:first").val() === "g"){
-      alert("you pressed g letter");
-      return;
-    }
+ if( $('input:first').val().key === 71)
+ {
+   alert ("GKEY HAS BEEN PRESSED");
+ }
     
   });
 }
